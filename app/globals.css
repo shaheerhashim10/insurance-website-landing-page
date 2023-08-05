@@ -18,10 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #0B0F17;
+}
+
+@layer utilities {
+  .gradient_background {
+    border-radius: 82.932px;
+    background: linear-gradient(180deg, #0D1C2E 0%, #0B0F17 13.79%, #0B0F17 90.75%, #0E1B2B 100%);
+  }
 }
