@@ -45,7 +45,7 @@ const Products = (props: Props) => {
             your insurance should be customized to fit your situation.
           </div>
           <div>
-            <Button className="w-[304px] h-[62px] bg-[#FF6476] rounded-[502px] mt-[103px]">
+            <Button className="w-[304px] h-[62px] bg-[#FF6476] font-medium text-[18px] rounded-[502px] mt-[103px]">
               View all services
             </Button>
           </div>

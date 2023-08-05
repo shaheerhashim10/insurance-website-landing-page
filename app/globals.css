@@ -37,4 +37,8 @@ body {
   .hero-shadow {
     box-shadow: 0px 0px 50.26177978515625px 0px rgba(255, 255, 255, 0.20);
   }
+
+  .expert-shadow {
+    box-shadow: 0px 0px 37.69633483886719px 0px rgba(255, 255, 255, 0.25);
+  }
 }

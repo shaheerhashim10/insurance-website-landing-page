@@ -1,3 +1,4 @@
+import ExpertsSection from '@/components/ExpertsSection';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Products from '@/components/Products';
@@ -15,10 +16,14 @@ export default function Home() {
         <section id="products" className="snap-center">
           <Products />
         </section>
+        {/* <section id="expert_carousel" className="snap-center">
+        <ExpertsCarousel />
+        </section> */}
+        <section id="expert_section" className="snap-center">
+          <ExpertsSection />
+        </section>
       </div>
       {/* 
-        <ExpertsSection />
-        <SupportSection />
         <ContactUs />  */}
     </main>
   );
