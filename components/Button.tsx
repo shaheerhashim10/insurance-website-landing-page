@@ -9,7 +9,7 @@ type ButtonProps = BasicProps & {
 const Button = (props: ButtonProps) => {
   const { className, children, ...restProps } = props;
   return (
-    <button className={classNames('bg-[#84D7E9]', className)} {...restProps}>
+    <button className={classNames('', className)} {...restProps}>
       {children}
     </button>
   );

@@ -33,4 +33,8 @@ body {
     width: 55.288px;
     height: 130.681px;
   }
+
+  .hero-shadow {
+    box-shadow: 0px 0px 50.26177978515625px 0px rgba(255, 255, 255, 0.20);
+  }
 }

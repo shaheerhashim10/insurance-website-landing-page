@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import Products from '@/components/Products';
 
 export default function Home() {
   return (
@@ -11,9 +12,11 @@ export default function Home() {
         <section id="hero" className="snap-start">
           <Hero />
         </section>
+        <section id="products" className="snap-center">
+          <Products />
+        </section>
       </div>
       {/* 
-        <Products />
         <ExpertsSection />
         <SupportSection />
         <ContactUs />  */}

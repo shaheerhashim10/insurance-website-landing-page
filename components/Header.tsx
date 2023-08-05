@@ -61,7 +61,7 @@ const Header = (props: Props) => {
           </nav>
         </div>
         <div className="flex">
-          <Button className="w-48 h-[3.3rem] text-black rounded-[3.3rem] text-base">
+          <Button className="w-48 h-[3.3rem] bg-[#84D7E9] text-black rounded-[3.3rem] text-base">
             Contact us
           </Button>
           <div className="flex ml-12">

@@ -177,7 +177,7 @@ const Hero = (props: Props) => {
 
       <Image
         src="/ballon.jpeg"
-        className="ml-6 rounded-[123px]"
+        className="ml-6 rounded-[123px] hero-shadow"
         width={246}
         height={518}
         alt={''}
