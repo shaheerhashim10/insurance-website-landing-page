@@ -120,6 +120,7 @@ const Hero = (props: Props) => {
           viewBox="0 0 41 41"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
+          className='animate-spin-slow'
         >
           <path
             fill-rule="evenodd"
@@ -136,7 +137,7 @@ const Hero = (props: Props) => {
           width="41"
           height="41"
           viewBox="0 0 41 41"
-          className="mt-12"
+          className="mt-12 animate-spin-slow"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >

@@ -16,3 +16,16 @@ export const blinker = Blinker({
 export const giorgioSans = localFont({
   src: '../public/GiorgioSans-Heavy-Trial.otf',
 });
+
+export const blimone = localFont({
+  src: [
+    {
+      path: '../public/Blimone-BoldInktrap.otf',
+      weight: '700',
+    },
+    {
+      path: '../public/Blimone-ExtraBoldInktrap.otf',
+      weight: '800',
+    },
+  ],
+});

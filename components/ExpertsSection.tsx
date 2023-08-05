@@ -22,6 +22,7 @@ const ExpertsSection = (props: Props) => {
           <svg
             width="41"
             height="41"
+            className="animate-spin-slow"
             viewBox="0 0 41 41"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +45,7 @@ const ExpertsSection = (props: Props) => {
             width="41"
             height="41"
             viewBox="0 0 41 41"
-            className="mt-12"
+            className="mt-12 animate-spin-slow"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >

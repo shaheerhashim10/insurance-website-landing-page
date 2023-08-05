@@ -1,3 +1,4 @@
+import ContactUs from '@/components/ContactUs';
 import ExpertsSection from '@/components/ExpertsSection';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
@@ -22,9 +23,13 @@ export default function Home() {
         <section id="expert_section" className="snap-center">
           <ExpertsSection />
         </section>
+        <section id="contact" className="snap-center">
+          <ContactUs />
+        </section>
+        {/* <section id="footer" className="snap-center">
+          <Footer />
+        </section> */}
       </div>
-      {/* 
-        <ContactUs />  */}
     </main>
   );
 }
