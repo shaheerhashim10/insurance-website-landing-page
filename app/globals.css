@@ -26,4 +26,11 @@ body {
     border-radius: 82.932px;
     background: linear-gradient(180deg, #0D1C2E 0%, #0B0F17 13.79%, #0B0F17 90.75%, #0E1B2B 100%);
   }
+
+  .hero-div-gradient {
+    border-radius: 27.644px;
+    background: linear-gradient(0deg, #151C2A 0%, rgba(17, 23, 34, 0.00) 100%);
+    width: 55.288px;
+    height: 130.681px;
+  }
 }

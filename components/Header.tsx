@@ -5,8 +5,8 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="w-[73rem] mt-16 mx-auto font-semibold">
-      <div className="flex justify-between">
+    <header className="mt-16 font-semibold">
+      <div className="flex justify-between pt-16">
         <div className="flex flex-col justify-center">
           <svg
             width="41"
