@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from './Button';
+import Link from 'next/link';
 
 type Props = {};
 
@@ -8,56 +9,67 @@ const Header = (props: Props) => {
     <header className="mt-16 font-semibold">
       <div className="flex justify-between pt-16">
         <div className="flex flex-col justify-center">
-          <svg
-            width="41"
-            height="41"
-            className="align-middle animate-spin-slow"
-            viewBox="0 0 41 41"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M31.1338 2.86433C28.1108 1.04585 24.5702 0 20.7854 0C15.9198 0 11.4579 1.7284 7.98024 4.60471L13.854 9.62232C15.8408 8.30591 18.2235 7.53927 20.7854 7.53927C22.6948 7.53927 24.5048 7.96518 26.1255 8.72719L31.1338 2.86433Z"
-              fill="#FF6D7F"
-            />
-            <path
-              d="M10.3831 27.1556C9.01775 25.1452 8.21993 22.7181 8.21993 20.1047C8.21993 17.55 8.98232 15.1734 10.292 13.1899L4.53179 8.26929C2.10986 11.5896 0.680664 15.6803 0.680664 20.1047C0.680664 25.0208 2.44514 29.5247 5.37533 33.0178L10.3831 27.1556Z"
-              fill="#FF6D7F"
-            />
-            <path
-              d="M9.06252 36.4398L13.9876 30.6744C15.9472 31.9374 18.2807 32.6702 20.7854 32.6702C24.0479 32.6702 27.0201 31.4267 29.2538 29.3879L35.0139 34.3085C31.3747 37.954 26.3434 40.2094 20.7854 40.2094C16.4108 40.2094 12.3626 38.8123 9.06252 36.4398Z"
-              fill="#FF6D7F"
-            />
-            <path
-              d="M30.1622 11.74L35.0872 5.97468C38.6751 9.6059 40.8901 14.5966 40.8901 20.1047C40.8901 23.8393 39.8718 27.3361 38.0978 30.3325L32.2234 25.3143C32.9474 23.7272 33.3508 21.9631 33.3508 20.1047C33.3508 16.8924 32.1454 13.9616 30.1622 11.74Z"
-              fill="#FF6D7F"
-            />
-          </svg>
+          <Button className="align-middle">
+            <svg
+              width="41"
+              height="41"
+              className="animate-spin-slow"
+              viewBox="0 0 41 41"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M31.1338 2.86433C28.1108 1.04585 24.5702 0 20.7854 0C15.9198 0 11.4579 1.7284 7.98024 4.60471L13.854 9.62232C15.8408 8.30591 18.2235 7.53927 20.7854 7.53927C22.6948 7.53927 24.5048 7.96518 26.1255 8.72719L31.1338 2.86433Z"
+                fill="#FF6D7F"
+              />
+              <path
+                d="M10.3831 27.1556C9.01775 25.1452 8.21993 22.7181 8.21993 20.1047C8.21993 17.55 8.98232 15.1734 10.292 13.1899L4.53179 8.26929C2.10986 11.5896 0.680664 15.6803 0.680664 20.1047C0.680664 25.0208 2.44514 29.5247 5.37533 33.0178L10.3831 27.1556Z"
+                fill="#FF6D7F"
+              />
+              <path
+                d="M9.06252 36.4398L13.9876 30.6744C15.9472 31.9374 18.2807 32.6702 20.7854 32.6702C24.0479 32.6702 27.0201 31.4267 29.2538 29.3879L35.0139 34.3085C31.3747 37.954 26.3434 40.2094 20.7854 40.2094C16.4108 40.2094 12.3626 38.8123 9.06252 36.4398Z"
+                fill="#FF6D7F"
+              />
+              <path
+                d="M30.1622 11.74L35.0872 5.97468C38.6751 9.6059 40.8901 14.5966 40.8901 20.1047C40.8901 23.8393 39.8718 27.3361 38.0978 30.3325L32.2234 25.3143C32.9474 23.7272 33.3508 21.9631 33.3508 20.1047C33.3508 16.8924 32.1454 13.9616 30.1622 11.74Z"
+                fill="#FF6D7F"
+              />
+            </svg>
+          </Button>
         </div>
         <div className="flex">
           <nav className="flex list-none  pt-5 text-base capitalize">
-            <li className="pl-9">Home</li>
+            <Link className="pl-9" href={''}>
+              Home
+            </Link>
             <li className="pl-9">
               <div className="flex">
-                <span> Services</span>
-                <svg
-                  width="15"
-                  height="10"
-                  className="mt-2 ml-1"
-                  viewBox="0 0 15 10"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M14.373 2.51074L12.596 0.73372L7.26496 6.06479L1.93389 0.73372L0.156869 2.51074L7.26496 9.61883L14.373 2.51074Z"
-                    fill="#D9D9D9"
-                  />
-                </svg>
+                <Link href={''}>Services</Link>
+                <Button className="ml-1">
+                  <svg
+                    width="15"
+                    height="10"
+                    viewBox="0 0 15 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M14.373 2.51074L12.596 0.73372L7.26496 6.06479L1.93389 0.73372L0.156869 2.51074L7.26496 9.61883L14.373 2.51074Z"
+                      fill="#D9D9D9"
+                    />
+                  </svg>
+                </Button>
               </div>
             </li>
-            <li className="pl-9">About us</li>
-            <li className="pl-9">Blog</li>
-            <li className="pl-9">Career</li>
+            <Link href={''} className="pl-9">
+              About us
+            </Link>
+            <Link href={''} className="pl-9">
+              Blog
+            </Link>
+            <Link href={''} className="pl-9">
+              Career
+            </Link>
           </nav>
         </div>
         <div className="flex">
@@ -79,7 +91,9 @@ const Header = (props: Props) => {
                 />
               </svg>
             </div>
-            <div className="flex flex-col justify-center">Login</div>
+            <div className="flex flex-col justify-center">
+              <Link href={''}>Login</Link>
+            </div>
           </div>
         </div>
       </div>

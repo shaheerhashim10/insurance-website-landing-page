@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Button from './Button';
-import { blinker } from '@/app/fonts';
+import { blimone } from '@/app/fonts';
 import classNames from 'classnames';
 
 type Props = {};
@@ -9,14 +9,17 @@ type Props = {};
 const ExpertsSection = (props: Props) => {
   return (
     <div className="flex h-[565px] justify-between mt-[75px]">
-      <span
-        className={classNames(
-          'flex items-center text-[73px] leading-[92px] font-light w-[192px]',
-          blinker.className
-        )}
-      >
-        Our expert say
-      </span>
+      <div className="flex items-center">
+        <div
+          className={classNames(
+            'text-[55px] leading-[55px] w-[192px] flex flex-col',
+            blimone.className
+          )}
+        >
+          <span>Support at every</span>
+          <span className="text-[100px] pt-4"> Step</span>
+        </div>
+      </div>
       <div className="flex items-center">
         <div className="flex flex-col ml-28 mt-8">
           <svg

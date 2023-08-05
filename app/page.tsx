@@ -1,4 +1,5 @@
 import ContactUs from '@/components/ContactUs';
+import ExpertsCarousel from '@/components/ExpertsCarousel';
 import ExpertsSection from '@/components/ExpertsSection';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
@@ -18,9 +19,9 @@ export default function Home() {
         <section id="products" className="snap-center">
           <Products />
         </section>
-        {/* <section id="expert_carousel" className="snap-center">
-        <ExpertsCarousel />
-        </section> */}
+        <section id="expert_carousel" className="snap-center">
+          <ExpertsCarousel />
+        </section>
         <section id="expert_section" className="snap-center">
           <ExpertsSection />
         </section>
