@@ -58,7 +58,7 @@ function ExpertCard({ name, image, designation, intro }: ExpertCardProps) {
                 y: -20,
                 opacity: 0,
               },
-              transition: { type: 'spring', duration: 1.7, delay: 0.4 },
+              transition: { type: 'spring', duration: 1.7, delay: 0.38 },
               whileInView: { y: 0, opacity: 1 },
               as: 'div',
             }}
@@ -73,7 +73,7 @@ function ExpertCard({ name, image, designation, intro }: ExpertCardProps) {
               y: -20,
               opacity: 0,
             },
-            transition: { type: 'spring', duration: 1.7, delay: 0.5 },
+            transition: { type: 'spring', duration: 1.7, delay: 0.4 },
             whileInView: { y: 0, opacity: 1 },
             as: 'div',
           }}

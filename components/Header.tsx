@@ -19,6 +19,7 @@ const Header = (props: Props) => {
               transition: { type: 'spring', duration: 0.5, delay: 0.2 },
               whileInView: { translateX: 0, opacity: 1 },
               as: 'div',
+              viewport: { once: true },
             }}
           >
             <Button className="align-middle">
@@ -62,6 +63,7 @@ const Header = (props: Props) => {
                   transition: { type: 'spring', duration: 0.5, delay: 0.3 },
                   whileInView: { translateX: 0, opacity: 1 },
                   as: 'div',
+                  viewport: { once: true },
                 }}
               >
                 Home
@@ -78,6 +80,7 @@ const Header = (props: Props) => {
                     transition: { type: 'spring', duration: 0.5, delay: 0.4 },
                     whileInView: { translateX: 0, opacity: 1 },
                     as: 'div',
+                    viewport: { once: true },
                   }}
                 >
                   <Link href={''}>Services</Link>
@@ -108,6 +111,7 @@ const Header = (props: Props) => {
                   transition: { type: 'spring', duration: 0.5, delay: 0.5 },
                   whileInView: { translateX: 0, opacity: 1 },
                   as: 'div',
+                  viewport: { once: true },
                 }}
               >
                 About us
@@ -123,6 +127,7 @@ const Header = (props: Props) => {
                   transition: { type: 'spring', duration: 0.5, delay: 0.6 },
                   whileInView: { translateX: 0, opacity: 1 },
                   as: 'div',
+                  viewport: { once: true },
                 }}
               >
                 Blog
@@ -138,6 +143,7 @@ const Header = (props: Props) => {
                   transition: { type: 'spring', duration: 0.5, delay: 0.7 },
                   whileInView: { translateX: 0, opacity: 1 },
                   as: 'div',
+                  viewport: { once: true },
                 }}
               >
                 Career
@@ -155,6 +161,7 @@ const Header = (props: Props) => {
               transition: { duration: 2, type: 'tween', delay: 0.8 },
               whileInView: { opacity: 1 },
               as: 'div',
+              viewport: { once: true },
             }}
           >
             <Button className="w-48 h-[3.3rem] bg-[#84D7E9] text-black rounded-[3.3rem] text-base">
@@ -173,6 +180,7 @@ const Header = (props: Props) => {
                   transition: { duration: 2, type: 'spring', delay: 0.9 },
                   whileInView: { opacity: 1 },
                   as: 'div',
+                  viewport: { once: true },
                 }}
               >
                 <svg
@@ -202,6 +210,7 @@ const Header = (props: Props) => {
                     transition: { duration: 2, type: 'spring', delay: 0.95 },
                     whileInView: { opacity: 1 },
                     as: 'div',
+                    viewport: { once: true },
                   }}
                 >
                   Login

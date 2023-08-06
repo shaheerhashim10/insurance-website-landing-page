@@ -9,11 +9,8 @@ type MotionDivProps = {
   exit?: any;
   transition?: any;
   as: any;
-
+  viewport?: any;
   whileInView?: any;
-
-  whileHover?: any;
-  whileTap?: any;
 };
 type AnimationWrapperProps = {
   children: ReactNode;
