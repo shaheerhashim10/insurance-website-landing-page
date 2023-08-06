@@ -1,16 +1,74 @@
 'use client';
 import React from 'react';
+// @ts-ignore
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import ExpertCard from './ExpertCard';
+import ExpertCard, { ExpertCardProps } from './ExpertCard';
 import classNames from 'classnames';
 import { blimone } from '@/app/fonts';
 
 type Props = {};
 
+const expertsData: ExpertCardProps[] = [
+  {
+    name: 'Georgia Darcy',
+    image: '/expert1.jpg',
+    designation: 'The agency founder',
+    intro:
+      "With over twenty years of industry experience, Darcy's insurance products' has learned a lot. The one thing we know for sure is that we're all about you. If you find searching for insurance frustrating we are here to help.",
+  },
+  {
+    name: 'Emiko Sato',
+    image: '/expert3.jpg',
+    designation: 'Insurance appraiser',
+    intro:
+      'Hi! I estimate the value of the insured items and evaluate the insured events  Also, I conduct investigations, inspecting damaged cars and buildings. Therefore, I have a great responsibility for providing insurance to our clients. I hope you will be comfortable with us.',
+  },
+  {
+    name: 'Isabella Rossi',
+    image: '/expert4.jpg',
+    designation: 'Designer',
+    intro:
+      'Hi! I estimate the value of the insured items and evaluate the insured events  Also, I conduct investigations, inspecting damaged cars and buildings. Therefore, I have a great responsibility for providing insurance to our clients. I hope you will be comfortable with us.',
+  },
+  {
+    name: 'Anna Kowalski',
+    image: '/expert2.jpg',
+    designation: 'Developer',
+    intro:
+      'Hi! I estimate the value of the insured items and evaluate the insured events  Also, I conduct investigations, inspecting damaged cars and buildings. Therefore, I have a great responsibility for providing insurance to our clients. I hope you will be comfortable with us.',
+  },
+];
+
 const ExpertsCarousel = (props: Props) => {
   return (
     <div className="flex justify-between mt-[130px]">
-      <ExpertCard />
+      <Splide
+        aria-label="Experts Intro"
+        options={{
+          width: '792px',
+          height: '550px',
+          autoplay: true,
+          type: 'loop',
+          // rewind : true,
+          interval: 1000,
+          pauseOnHover: true,
+          arrows: false,
+          pagination: true,
+          perPage: 1,
+          perMove: 1,
+        }}
+      >
+        {expertsData.map((expert, index) => (
+          <SplideSlide key={index}>
+            <ExpertCard
+              name={expert.name}
+              image={expert.image}
+              designation={expert.designation}
+              intro={expert.intro}
+            />
+          </SplideSlide>
+        ))}
+      </Splide>
 
       <div className="flex items-center">
         <div className="pb-[120px] pr-4">

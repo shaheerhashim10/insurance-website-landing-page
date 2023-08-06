@@ -1,6 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
+import '@splidejs/react-splide/css';
 
 const poppins = Poppins({
   subsets: ['latin'],
