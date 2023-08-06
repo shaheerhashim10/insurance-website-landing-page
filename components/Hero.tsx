@@ -27,7 +27,7 @@ const Hero = (props: Props) => {
               'text-[177px] font-bold leading-[168px]'
             )}
           >
-            Darcy's insurance products
+            Darcy&apos;s insurance products
           </span>
         </AnimationWrapper>
       </div>
