@@ -6,6 +6,7 @@ import ExpertCard, { ExpertCardProps } from './ExpertCard';
 import classNames from 'classnames';
 import { blimone } from '@/app/fonts';
 import { AnimationWrapper } from '@/app/AnimationWrapper';
+import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
 type Props = {};
 
