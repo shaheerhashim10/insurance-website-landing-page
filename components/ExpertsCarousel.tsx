@@ -41,7 +41,7 @@ const expertsData: ExpertCardProps[] = [
 
 const ExpertsCarousel = (props: Props) => {
   return (
-    <div className="flex justify-between mt-[130px]">
+    <div className="flex justify-between mt-[200px]">
       <Splide
         aria-label="Experts Intro"
         options={{
