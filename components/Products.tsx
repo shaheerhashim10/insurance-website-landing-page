@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import SecondaryButton from './SecondaryButton';
 import classNames from 'classnames';
-import { giorgioSans } from '@/app/fonts';
+import { blimone } from '@/app/fonts';
 import Button from './Button';
 import { AnimationWrapper } from '@/app/AnimationWrapper';
 
@@ -83,12 +83,12 @@ const Products = (props: Props) => {
             <div
               className={classNames(
                 'text-[70px] font-bold font-sans leading-[64px]',
-                giorgioSans.className
+                blimone.className
               )}
             >
               Best choice
             </div>
-            <div className="w-[300px] mt-7 font-bold leading-5">
+            <div className="w-[300px] mt-7  leading-5">
               Not all insurance are the same. That&apos;s why agency knows that
               your insurance should be customized to fit your situation.
             </div>
