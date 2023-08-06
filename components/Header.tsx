@@ -16,7 +16,7 @@ const Header = (props: Props) => {
                 translateX: 30,
                 opacity: 0,
               },
-              transition: { type: 'srping', duration: 0.5, delay: 0.2 },
+              transition: { type: 'spring', duration: 0.5, delay: 0.2 },
               whileInView: { translateX: 0, opacity: 1 },
               as: 'div',
             }}
@@ -59,7 +59,7 @@ const Header = (props: Props) => {
                     translateX: 30,
                     opacity: 0,
                   },
-                  transition: { type: 'srping', duration: 0.5, delay: 0.3 },
+                  transition: { type: 'spring', duration: 0.5, delay: 0.3 },
                   whileInView: { translateX: 0, opacity: 1 },
                   as: 'div',
                 }}
@@ -75,7 +75,7 @@ const Header = (props: Props) => {
                       translateX: 30,
                       opacity: 0,
                     },
-                    transition: { type: 'srping', duration: 0.5, delay: 0.4 },
+                    transition: { type: 'spring', duration: 0.5, delay: 0.4 },
                     whileInView: { translateX: 0, opacity: 1 },
                     as: 'div',
                   }}
@@ -105,7 +105,7 @@ const Header = (props: Props) => {
                     translateX: 30,
                     opacity: 0,
                   },
-                  transition: { type: 'srping', duration: 0.5, delay: 0.5 },
+                  transition: { type: 'spring', duration: 0.5, delay: 0.5 },
                   whileInView: { translateX: 0, opacity: 1 },
                   as: 'div',
                 }}
@@ -120,7 +120,7 @@ const Header = (props: Props) => {
                     translateX: 30,
                     opacity: 0,
                   },
-                  transition: { type: 'srping', duration: 0.5, delay: 0.6 },
+                  transition: { type: 'spring', duration: 0.5, delay: 0.6 },
                   whileInView: { translateX: 0, opacity: 1 },
                   as: 'div',
                 }}
@@ -135,7 +135,7 @@ const Header = (props: Props) => {
                     translateX: 30,
                     opacity: 0,
                   },
-                  transition: { type: 'srping', duration: 0.5, delay: 0.7 },
+                  transition: { type: 'spring', duration: 0.5, delay: 0.7 },
                   whileInView: { translateX: 0, opacity: 1 },
                   as: 'div',
                 }}
@@ -170,7 +170,7 @@ const Header = (props: Props) => {
                     opacity: 0,
                   },
                   animate: { pathLength: 1 },
-                  transition: { duration: 2, type: 'tween', delay: 0.9 },
+                  transition: { duration: 2, type: 'spring', delay: 0.9 },
                   whileInView: { opacity: 1 },
                   as: 'div',
                 }}
@@ -199,7 +199,7 @@ const Header = (props: Props) => {
                       opacity: 0,
                     },
                     animate: { pathLength: 1 },
-                    transition: { duration: 2, type: 'tween', delay: 0.95 },
+                    transition: { duration: 2, type: 'spring', delay: 0.95 },
                     whileInView: { opacity: 1 },
                     as: 'div',
                   }}
