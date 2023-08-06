@@ -82,7 +82,7 @@ const Products = (props: Props) => {
           <div className="flex flex-col bg-[#0D1D30] w-[379px] h-[402px] rounded-[58px]  ps-9 pt-7">
             <div
               className={classNames(
-                'text-[70px] font-bold font-sans leading-[64px]',
+                'text-[50px] font-bold font-sans leading-[64px]',
                 blimone.className
               )}
             >
