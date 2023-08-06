@@ -26,14 +26,14 @@ const expertsData: ExpertCardProps[] = [
   {
     name: 'Isabella Rossi',
     image: '/expert4.jpg',
-    designation: 'Designer',
+    designation: 'Risk Analyst',
     intro:
       'Hi! I estimate the value of the insured items and evaluate the insured events  Also, I conduct investigations, inspecting damaged cars and buildings. Therefore, I have a great responsibility for providing insurance to our clients. I hope you will be comfortable with us.',
   },
   {
     name: 'Anna Kowalski',
     image: '/expert2.jpg',
-    designation: 'Developer',
+    designation: 'Claims Adjuster',
     intro:
       'Hi! I estimate the value of the insured items and evaluate the insured events  Also, I conduct investigations, inspecting damaged cars and buildings. Therefore, I have a great responsibility for providing insurance to our clients. I hope you will be comfortable with us.',
   },
